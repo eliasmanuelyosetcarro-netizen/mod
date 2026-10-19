@@ -12,4 +12,9 @@ on:
 
 jobs:
   build:
-    uses: geode-sdk/build-geode-mod@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Mod
+        uses: geode-sdk/build-geode-mod@main
