@@ -1,9 +1,14 @@
 {
-  "geode": "4.0.0",
-  "gd": "2.209",
-  "id": "alcachas.input-assist",
-  "name": "Input Assist",
-  "version": "v1.0.0",
-  "developer": "ALCACHAS",
-  "description": "Mod de asistencia con modos F6 para Geometry Dash"
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "tuusuario.assist-levels",
+	"name": "Assist Levels",
+	"version": "v1.0.0",
+	"developer": "tuusuario",
+	"description": "Cambia entre 4 niveles de asistencia con F6."
 }
