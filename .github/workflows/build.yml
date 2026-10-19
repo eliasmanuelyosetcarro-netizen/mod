@@ -2,7 +2,7 @@ name: Build Geode Mod
 
 on:
   push:
-    branches:
+    brancheworkflows/build.yml@mains:
       - main
       - master
   pull_request:
@@ -12,4 +12,4 @@ on:
 
 jobs:
   build:
-    uses: geode-sdk/build-geode-mod/.github/workflows/build.yml@main
+    uses: geode-sdk/build-geode-mod/.github/
